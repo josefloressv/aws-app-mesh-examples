@@ -1,8 +1,7 @@
+# Reference
+[colorapp demo](examples/apps/colorapp/README.md)
 
 ```bash
-# Reference
-
-[colorapp demo](examples/apps/colorapp/README.md)
 
 # Configure AWS profile
 aws configure --profile xyz
