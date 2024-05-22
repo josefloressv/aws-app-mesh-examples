@@ -35,7 +35,7 @@ describe_create_ecr_registry() {
 }
 
 # build
-docker build --build-arg GO_PROXY=$GO_PROXY -t $COLOR_TELLER_IMAGE ${DIR}
+docker build --platform=linux/amd64 --build-arg GO_PROXY=$GO_PROXY -t $COLOR_TELLER_IMAGE ${DIR}
 
 # push
 ecr_login
